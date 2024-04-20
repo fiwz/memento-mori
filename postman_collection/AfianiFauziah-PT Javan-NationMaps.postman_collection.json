@@ -1,0 +1,1260 @@
+{
+	"info": {
+		"_postman_id": "4b3e51fa-d94e-461b-bdf8-e7a9fad19821",
+		"name": "AfianiFauziah-PT Javan-NationMaps",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3952665"
+	},
+	"item": [
+		{
+			"name": "Village",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/desa",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"desa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/desa",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 03:01:53 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 200,\n    \"message\": \"Data fetched successfully\",\n    \"data\": {\n        \"current_page\": 1,\n        \"data\": [\n            {\n                \"id\": \"1\",\n                \"code\": \"1101012001\",\n                \"district_code\": \"110101\",\n                \"name\": \"KEUDE BAKONGAN\",\n                \"meta\": {\n                    \"lat\": \"2.9300043\",\n                    \"long\": \"97.4732991\",\n                    \"pos\": \"23773\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"2\",\n                \"code\": \"1101012002\",\n                \"district_code\": \"110101\",\n                \"name\": \"UJONG MANGKI\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"23773\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"3\",\n                \"code\": \"1101012003\",\n                \"district_code\": \"110101\",\n                \"name\": \"UJONG PADANG\",\n                \"meta\": {\n                    \"lat\": \"4.0780078\",\n                    \"long\": \"96.3093164\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"4\",\n                \"code\": \"1101012004\",\n                \"district_code\": \"110101\",\n                \"name\": \"GAMPONG DRIEN\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"NULL\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"5\",\n                \"code\": \"1101012015\",\n                \"district_code\": \"110101\",\n                \"name\": \"DARUL IKHSAN\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"NULL\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"6\",\n                \"code\": \"1101012016\",\n                \"district_code\": \"110101\",\n                \"name\": \"PADANG BEURAHAN\",\n                \"meta\": {\n                    \"lat\": \"3.2550178\",\n                    \"long\": \"97.1793628\",\n                    \"pos\": \"24395\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"7\",\n                \"code\": \"1101012017\",\n                \"district_code\": \"110101\",\n                \"name\": \"GAMPONG BARO\",\n                \"meta\": {\n                    \"lat\": \"4.9608389\",\n                    \"long\": \"97.7674773\",\n                    \"pos\": \"23777\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"8\",\n                \"code\": \"1101022001\",\n                \"district_code\": \"110102\",\n                \"name\": \"FAJAR HARAPAN\",\n                \"meta\": {\n                    \"lat\": \"3.1297375\",\n                    \"long\": \"97.3165547\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"9\",\n                \"code\": \"1101022002\",\n                \"district_code\": \"110102\",\n                \"name\": \"KRUENG BATEE\",\n                \"meta\": {\n                    \"lat\": \"2.9339321\",\n                    \"long\": \"97.624978\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"10\",\n                \"code\": \"1101022003\",\n                \"district_code\": \"110102\",\n                \"name\": \"PASI KUALA ASAHAN\",\n                \"meta\": {\n                    \"lat\": \"3.1198584\",\n                    \"long\": \"97.3057581\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"11\",\n                \"code\": \"1101022004\",\n                \"district_code\": \"110102\",\n                \"name\": \"GUNUNG PULO\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"12\",\n                \"code\": \"1101022005\",\n                \"district_code\": \"110102\",\n                \"name\": \"PULO IE I\",\n                \"meta\": {\n                    \"lat\": \"3.1060523\",\n                    \"long\": \"97.3233035\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"13\",\n                \"code\": \"1101022006\",\n                \"district_code\": \"110102\",\n                \"name\": \"JAMBO MANYANG\",\n                \"meta\": {\n                    \"lat\": \"3.0998056\",\n                    \"long\": \"97.3273531\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"14\",\n                \"code\": \"1101022007\",\n                \"district_code\": \"110102\",\n                \"name\": \"SIMPANG EMPAT\",\n                \"meta\": {\n                    \"lat\": \"3.0848098\",\n                    \"long\": \"97.3381532\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"15\",\n                \"code\": \"1101022008\",\n                \"district_code\": \"110102\",\n                \"name\": \"LIMAU PURUT\",\n                \"meta\": {\n                    \"lat\": \"3.094719\",\n                    \"long\": \"97.3435539\",\n                    \"pos\": \"75541\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"16\",\n                \"code\": \"1101022009\",\n                \"district_code\": \"110102\",\n                \"name\": \"PULO KAMBING\",\n                \"meta\": {\n                    \"lat\": \"3.1008331\",\n                    \"long\": \"97.3584081\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"17\",\n                \"code\": \"1101022010\",\n                \"district_code\": \"110102\",\n                \"name\": \"KAMPUNG PAYA\",\n                \"meta\": {\n                    \"lat\": \"3.1094916\",\n                    \"long\": \"97.365161\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"18\",\n                \"code\": \"1101022011\",\n                \"district_code\": \"110102\",\n                \"name\": \"KRUENG BATU\",\n                \"meta\": {\n                    \"lat\": \"3.1145805\",\n                    \"long\": \"97.3489551\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"19\",\n                \"code\": \"1101022012\",\n                \"district_code\": \"110102\",\n                \"name\": \"KRUENG KLUET\",\n                \"meta\": {\n                    \"lat\": \"3.1194049\",\n                    \"long\": \"97.3705639\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"20\",\n                \"code\": \"1101022013\",\n                \"district_code\": \"110102\",\n                \"name\": \"ALUR MAS\",\n                \"meta\": {\n                    \"lat\": \"3.1567591\",\n                    \"long\": \"97.3678624\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"21\",\n                \"code\": \"1101022014\",\n                \"district_code\": \"110102\",\n                \"name\": \"KAMPUNG TINGGI\",\n                \"meta\": {\n                    \"lat\": \"3.1292818\",\n                    \"long\": \"97.3813708\",\n                    \"pos\": \"23891\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"22\",\n                \"code\": \"1101022015\",\n                \"district_code\": \"110102\",\n                \"name\": \"RUAK\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"NULL\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"23\",\n                \"code\": \"1101022016\",\n                \"district_code\": \"110102\",\n                \"name\": \"SIMPANG LHEE\",\n                \"meta\": {\n                    \"lat\": \"3.0786967\",\n                    \"long\": \"97.3233035\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"24\",\n                \"code\": \"1101022017\",\n                \"district_code\": \"110102\",\n                \"name\": \"SUAQ GEURINGGENG\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"NULL\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"25\",\n                \"code\": \"1101022018\",\n                \"district_code\": \"110102\",\n                \"name\": \"PASI KUALA BA'U\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"26\",\n                \"code\": \"1101022019\",\n                \"district_code\": \"110102\",\n                \"name\": \"KEDAI PADANG\",\n                \"meta\": {\n                    \"lat\": \"3.078771\",\n                    \"long\": \"97.3125058\",\n                    \"pos\": \"23771\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"27\",\n                \"code\": \"1101022020\",\n                \"district_code\": \"110102\",\n                \"name\": \"KOTAFAJAR\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"97682\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"28\",\n                \"code\": \"1101022021\",\n                \"district_code\": \"110102\",\n                \"name\": \"GUNUNG PUDUNG\",\n                \"meta\": {\n                    \"lat\": \"3.1415144\",\n                    \"long\": \"97.3871832\",\n                    \"pos\": \"38954\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"29\",\n                \"code\": \"1101032001\",\n                \"district_code\": \"110103\",\n                \"name\": \"SUAQ BAKUNG\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"30\",\n                \"code\": \"1101032002\",\n                \"district_code\": \"110103\",\n                \"name\": \"RANTAU BINUANG\",\n                \"meta\": {\n                    \"lat\": \"3.065071\",\n                    \"long\": \"97.3165547\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"31\",\n                \"code\": \"1101032003\",\n                \"district_code\": \"110103\",\n                \"name\": \"BARAT DAYA\",\n                \"meta\": {\n                    \"lat\": \"3.0512643\",\n                    \"long\": \"97.3368031\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"32\",\n                \"code\": \"1101032004\",\n                \"district_code\": \"110103\",\n                \"name\": \"SIALANG\",\n                \"meta\": {\n                    \"lat\": \"3.0587189\",\n                    \"long\": \"97.3368031\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"33\",\n                \"code\": \"1101032005\",\n                \"district_code\": \"110103\",\n                \"name\": \"KAPEH\",\n                \"meta\": {\n                    \"lat\": \"3.0618114\",\n                    \"long\": \"97.3388283\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"34\",\n                \"code\": \"1101032006\",\n                \"district_code\": \"110103\",\n                \"name\": \"PULO IE\",\n                \"meta\": {\n                    \"lat\": \"3.0686416\",\n                    \"long\": \"97.3395034\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"35\",\n                \"code\": \"1101032007\",\n                \"district_code\": \"110103\",\n                \"name\": \"KEDAI RUNDING\",\n                \"meta\": {\n                    \"lat\": \"3.0598409\",\n                    \"long\": \"97.3543566\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"36\",\n                \"code\": \"1101032008\",\n                \"district_code\": \"110103\",\n                \"name\": \"KEDAI KANDANG\",\n                \"meta\": {\n                    \"lat\": \"3.063782\",\n                    \"long\": \"97.3233035\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"37\",\n                \"code\": \"1101032009\",\n                \"district_code\": \"110103\",\n                \"name\": \"GAMPONG LUAR\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"NULL\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"38\",\n                \"code\": \"1101032010\",\n                \"district_code\": \"110103\",\n                \"name\": \"UJUNG\",\n                \"meta\": {\n                    \"lat\": \"2.2788204\",\n                    \"long\": \"97.7824225\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"39\",\n                \"code\": \"1101032011\",\n                \"district_code\": \"110103\",\n                \"name\": \"JUA\",\n                \"meta\": {\n                    \"lat\": \"3.0668378\",\n                    \"long\": \"97.330728\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"40\",\n                \"code\": \"1101032012\",\n                \"district_code\": \"110103\",\n                \"name\": \"PASI MEURAPAT\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"41\",\n                \"code\": \"1101032013\",\n                \"district_code\": \"110103\",\n                \"name\": \"UJUNG PASIR\",\n                \"meta\": {\n                    \"lat\": \"3.0743228\",\n                    \"long\": \"97.3266782\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"42\",\n                \"code\": \"1101032014\",\n                \"district_code\": \"110103\",\n                \"name\": \"GEULUMBUK\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"43\",\n                \"code\": \"1101032015\",\n                \"district_code\": \"110103\",\n                \"name\": \"PASIE LEMBANG\",\n                \"meta\": {\n                    \"lat\": \"NULL\",\n                    \"long\": \"NULL\",\n                    \"pos\": \"23779\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"44\",\n                \"code\": \"1101032016\",\n                \"district_code\": \"110103\",\n                \"name\": \"UJUNG PADANG\",\n                \"meta\": {\n                    \"lat\": \"2.6172835\",\n                    \"long\": \"95.9277625\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"45\",\n                \"code\": \"1101032017\",\n                \"district_code\": \"110103\",\n                \"name\": \"INDRA DAMAI\",\n                \"meta\": {\n                    \"lat\": \"3.0498647\",\n                    \"long\": \"97.3597586\",\n                    \"pos\": \"23772\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"46\",\n                \"code\": \"1101042001\",\n                \"district_code\": \"110104\",\n                \"name\": \"BAKAU HULU\",\n                \"meta\": {\n                    \"lat\": \"3.5519774\",\n                    \"long\": \"97.0202754\",\n                    \"pos\": \"23761\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"47\",\n                \"code\": \"1101042002\",\n                \"district_code\": \"110104\",\n                \"name\": \"PADANG BAKAU\",\n                \"meta\": {\n                    \"lat\": \"3.5382755\",\n                    \"long\": \"97.0054959\",\n                    \"pos\": \"23761\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"48\",\n                \"code\": \"1101042003\",\n                \"district_code\": \"110104\",\n                \"name\": \"MANGGIS HARAPAN\",\n                \"meta\": {\n                    \"lat\": \"3.5557967\",\n                    \"long\": \"97.013557\",\n                    \"pos\": \"23761\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"49\",\n                \"code\": \"1101042004\",\n                \"district_code\": \"110104\",\n                \"name\": \"PASAR LAMA\",\n                \"meta\": {\n                    \"lat\": \"3.5490161\",\n                    \"long\": \"96.9967641\",\n                    \"pos\": \"23761\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            },\n            {\n                \"id\": \"50\",\n                \"code\": \"1101042005\",\n                \"district_code\": \"110104\",\n                \"name\": \"APHA\",\n                \"meta\": {\n                    \"lat\": \"3.5527943\",\n                    \"long\": \"96.9954209\",\n                    \"pos\": \"23761\"\n                },\n                \"created_at\": \"2024-04-20 02:24:49\",\n                \"updated_at\": \"2024-04-20 02:24:49\"\n            }\n        ],\n        \"first_page_url\": \"http://localhost:8000/api/desa?page=1\",\n        \"from\": 1,\n        \"last_page\": 1677,\n        \"last_page_url\": \"http://localhost:8000/api/desa?page=1677\",\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=2\",\n                \"label\": \"2\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=3\",\n                \"label\": \"3\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=4\",\n                \"label\": \"4\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=5\",\n                \"label\": \"5\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=6\",\n                \"label\": \"6\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=7\",\n                \"label\": \"7\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=8\",\n                \"label\": \"8\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=9\",\n                \"label\": \"9\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=10\",\n                \"label\": \"10\",\n                \"active\": false\n            },\n            {\n                \"url\": null,\n                \"label\": \"...\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=1676\",\n                \"label\": \"1676\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=1677\",\n                \"label\": \"1677\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://localhost:8000/api/desa?page=2\",\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"next_page_url\": \"http://localhost:8000/api/desa?page=2\",\n        \"path\": \"http://localhost:8000/api/desa\",\n        \"per_page\": 50,\n        \"prev_page_url\": null,\n        \"to\": 50,\n        \"total\": 83809\n    }\n}"
+						},
+						{
+							"name": "Error Database is Offline",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/desa",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 03:02:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (Connection: mysql, SQL: select count(*) as aggregate from `indonesia_villages`)\",\n    \"exception\": \"Illuminate\\\\Database\\\\QueryException\",\n    \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Connection.php\",\n    \"line\": 829,\n    \"trace\": [\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Connection.php\",\n            \"line\": 983,\n            \"function\": \"runQueryCallback\",\n            \"class\": \"Illuminate\\\\Database\\\\Connection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Connection.php\",\n            \"line\": 962,\n            \"function\": \"tryAgainIfCausedByLostConnection\",\n            \"class\": \"Illuminate\\\\Database\\\\Connection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Connection.php\",\n            \"line\": 785,\n            \"function\": \"handleQueryException\",\n            \"class\": \"Illuminate\\\\Database\\\\Connection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Connection.php\",\n            \"line\": 414,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Database\\\\Connection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Query\\\\Builder.php\",\n            \"line\": 2871,\n            \"function\": \"select\",\n            \"class\": \"Illuminate\\\\Database\\\\Connection\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Query\\\\Builder.php\",\n            \"line\": 2860,\n            \"function\": \"runSelect\",\n            \"class\": \"Illuminate\\\\Database\\\\Query\\\\Builder\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Query\\\\Builder.php\",\n            \"line\": 3414,\n            \"function\": \"Illuminate\\\\Database\\\\Query\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Database\\\\Query\\\\Builder\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Query\\\\Builder.php\",\n            \"line\": 2859,\n            \"function\": \"onceWithColumns\",\n            \"class\": \"Illuminate\\\\Database\\\\Query\\\\Builder\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Query\\\\Builder.php\",\n            \"line\": 3024,\n            \"function\": \"get\",\n            \"class\": \"Illuminate\\\\Database\\\\Query\\\\Builder\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Query\\\\Builder.php\",\n            \"line\": 2983,\n            \"function\": \"runPaginationCountQuery\",\n            \"class\": \"Illuminate\\\\Database\\\\Query\\\\Builder\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Eloquent\\\\Builder.php\",\n            \"line\": 922,\n            \"function\": \"getCountForPagination\",\n            \"class\": \"Illuminate\\\\Database\\\\Query\\\\Builder\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Support\\\\Traits\\\\ForwardsCalls.php\",\n            \"line\": 23,\n            \"function\": \"paginate\",\n            \"class\": \"Illuminate\\\\Database\\\\Eloquent\\\\Builder\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Eloquent\\\\Model.php\",\n            \"line\": 2334,\n            \"function\": \"forwardCallTo\",\n            \"class\": \"Illuminate\\\\Database\\\\Eloquent\\\\Model\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Database\\\\Eloquent\\\\Model.php\",\n            \"line\": 2346,\n            \"function\": \"__call\",\n            \"class\": \"Illuminate\\\\Database\\\\Eloquent\\\\Model\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravolt\\\\indonesia\\\\src\\\\IndonesiaService.php\",\n            \"line\": 103,\n            \"function\": \"__callStatic\",\n            \"class\": \"Illuminate\\\\Database\\\\Eloquent\\\\Model\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Support\\\\Facades\\\\Facade.php\",\n            \"line\": 355,\n            \"function\": \"paginateVillages\",\n            \"class\": \"Laravolt\\\\Indonesia\\\\IndonesiaService\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\app\\\\Services\\\\VillageService.php\",\n            \"line\": 22,\n            \"function\": \"__callStatic\",\n            \"class\": \"Illuminate\\\\Support\\\\Facades\\\\Facade\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\app\\\\Http\\\\Controllers\\\\Api\\\\VillageController.php\",\n            \"line\": 52,\n            \"function\": \"getList\",\n            \"class\": \"App\\\\Services\\\\VillageService\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Controller.php\",\n            \"line\": 54,\n            \"function\": \"index\",\n            \"class\": \"App\\\\Http\\\\Controllers\\\\Api\\\\VillageController\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\ControllerDispatcher.php\",\n            \"line\": 43,\n            \"function\": \"callAction\",\n            \"class\": \"Illuminate\\\\Routing\\\\Controller\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Route.php\",\n            \"line\": 259,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\ControllerDispatcher\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Route.php\",\n            \"line\": 205,\n            \"function\": \"runController\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 806,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 144,\n            \"function\": \"Illuminate\\\\Routing\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\SubstituteBindings.php\",\n            \"line\": 50,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 183,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\SubstituteBindings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests.php\",\n            \"line\": 159,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests.php\",\n            \"line\": 125,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests.php\",\n            \"line\": 87,\n            \"function\": \"handleRequestUsingNamedLimiter\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 183,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\ThrottleRequests\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 119,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 805,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 784,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 748,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Routing\\\\Router.php\",\n            \"line\": 737,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 144,\n            \"function\": \"Illuminate\\\\Foundation\\\\Http\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 183,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings.php\",\n            \"line\": 40,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 183,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 183,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance.php\",\n            \"line\": 99,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 183,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Http\\\\Middleware\\\\HandleCors.php\",\n            \"line\": 62,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 183,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Http\\\\Middleware\\\\TrustProxies.php\",\n            \"line\": 39,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 183,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Pipeline\\\\Pipeline.php\",\n            \"line\": 119,\n            \"function\": \"Illuminate\\\\Pipeline\\\\{closure}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\Http\\\\Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\public\\\\index.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"D:\\\\WORK\\\\sandbox-try-and-fail-zone\\\\tes-tambahan-javan\\\\nation-maps\\\\vendor\\\\laravel\\\\framework\\\\src\\\\Illuminate\\\\Foundation\\\\resources\\\\server.php\",\n            \"line\": 16,\n            \"function\": \"require_once\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Detail",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/desa/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"desa",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/desa/1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 03:10:09 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 200,\n    \"message\": \"Data fetched successfully\",\n    \"data\": {\n        \"id\": \"1\",\n        \"code\": \"1101012001\",\n        \"district_code\": \"110101\",\n        \"name\": \"KEUDE BAKONGAN\",\n        \"meta\": {\n            \"lat\": \"2.9300043\",\n            \"long\": \"97.4732991\",\n            \"pos\": \"23773\"\n        },\n        \"created_at\": \"2024-04-20 02:24:49\",\n        \"updated_at\": \"2024-04-20 02:24:49\",\n        \"city\": {\n            \"id\": \"1\",\n            \"code\": \"1101\",\n            \"province_code\": \"11\",\n            \"name\": \"KABUPATEN ACEH SELATAN\",\n            \"meta\": {\n                \"lat\": \"3.3115056\",\n                \"long\": \"97.3516558\"\n            },\n            \"created_at\": \"2024-04-20 02:24:47\",\n            \"updated_at\": \"2024-04-20 02:24:47\"\n        },\n        \"province\": {\n            \"id\": \"1\",\n            \"code\": \"11\",\n            \"name\": \"ACEH\",\n            \"meta\": {\n                \"lat\": \"4.695135\",\n                \"long\": \"96.7493993\"\n            },\n            \"created_at\": \"2024-04-20 02:24:47\",\n            \"updated_at\": \"2024-04-20 02:24:47\"\n        },\n        \"district\": {\n            \"id\": \"1\",\n            \"code\": \"110101\",\n            \"city_code\": \"1101\",\n            \"name\": \"BAKONGAN\",\n            \"meta\": {\n                \"lat\": \"2.9622427\",\n                \"long\": \"97.4705935\"\n            },\n            \"created_at\": \"2024-04-20 02:24:48\",\n            \"updated_at\": \"2024-04-20 02:24:48\"\n        }\n    }\n}"
+						},
+						{
+							"name": "Success Example 2",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/desa/83811",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa",
+										"83811"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 04:57:25 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 200,\n    \"message\": \"Data fetched successfully\",\n    \"data\": {\n        \"id\": \"83811\",\n        \"code\": \"1101022022\",\n        \"district_code\": \"110102\",\n        \"name\": \"DESA SMURF\",\n        \"meta\": {\n            \"lat\": \"40.8\",\n            \"long\": \"100.555\",\n            \"pos\": 40551\n        },\n        \"created_at\": \"2024-04-20 04:56:51\",\n        \"updated_at\": \"2024-04-20 04:56:51\",\n        \"city\": {\n            \"id\": \"1\",\n            \"code\": \"1101\",\n            \"province_code\": \"11\",\n            \"name\": \"KABUPATEN ACEH SELATAN\",\n            \"meta\": {\n                \"lat\": \"3.3115056\",\n                \"long\": \"97.3516558\"\n            },\n            \"created_at\": \"2024-04-20 02:24:47\",\n            \"updated_at\": \"2024-04-20 02:24:47\"\n        },\n        \"province\": {\n            \"id\": \"1\",\n            \"code\": \"11\",\n            \"name\": \"ACEH\",\n            \"meta\": {\n                \"lat\": \"4.695135\",\n                \"long\": \"96.7493993\"\n            },\n            \"created_at\": \"2024-04-20 02:24:47\",\n            \"updated_at\": \"2024-04-20 02:24:47\"\n        },\n        \"district\": {\n            \"id\": \"2\",\n            \"code\": \"110102\",\n            \"city_code\": \"1101\",\n            \"name\": \"KLUET UTARA\",\n            \"meta\": {\n                \"lat\": \"3.1221015\",\n                \"long\": \"97.3408535\"\n            },\n            \"created_at\": \"2024-04-20 02:24:48\",\n            \"updated_at\": \"2024-04-20 02:24:48\"\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"DESA SMURF\",\r\n    \"district_code\": 110102,\r\n    \"lat\": \"100.8\",\r\n    \"long\": \"200.5\",\r\n    \"pos\": 40551\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/desa",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"desa"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Error Validation",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"DESA SMURF\",\r\n    \"district_code\": 110102999,\r\n    \"lat\": \"\",\r\n    \"long\": \"200.555\",\r\n    \"pos\": 4055\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/desa",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 03:47:00 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 500,\n    \"message\": {\n        \"district_code\": [\n            \"The district code field must be 6 digits.\"\n        ],\n        \"lat\": [\n            \"The lat field is required.\"\n        ],\n        \"pos\": [\n            \"The pos field must be 5 digits.\"\n        ]\n    }\n}"
+						},
+						{
+							"name": "Error District Not Found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"DESA SMURF\",\r\n    \"district_code\": 808080,\r\n    \"lat\": \"40.8\",\r\n    \"long\": \"100.555\",\r\n    \"pos\": 40551\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/desa",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 04:00:48 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 500,\n    \"message\": \"Failed to save data. We can not find the district.\"\n}"
+						},
+						{
+							"name": "Error Village is Exist",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"RUAK\",\r\n    \"district_code\": 110102,\r\n    \"lat\": \"40.8\",\r\n    \"long\": \"100.555\",\r\n    \"pos\": 40551\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/desa",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 04:31:34 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 500,\n    \"message\": \"Failed to save data. Village is already exist.\"\n}"
+						},
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"DESA SMURF\",\r\n    \"district_code\": 110102,\r\n    \"lat\": \"40.8\",\r\n    \"long\": \"100.555\",\r\n    \"pos\": 40551\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/desa",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 04:56:51 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 200,\n    \"message\": \"Successfully store data\",\n    \"data\": {\n        \"name\": \"DESA SMURF\",\n        \"code\": 1101022022,\n        \"district_code\": 110102,\n        \"meta\": \"{\\\"lat\\\":\\\"40.8\\\",\\\"long\\\":\\\"100.555\\\",\\\"pos\\\":40551}\",\n        \"updated_at\": \"2024-04-20T04:56:51.000000Z\",\n        \"created_at\": \"2024-04-20T04:56:51.000000Z\",\n        \"id\": 83811\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/desa/83812",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"desa",
+								"83812"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/desa/83812",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa",
+										"83812"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 05:04:56 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 200,\n    \"message\": \"Successfully delete data\",\n    \"data\": {\n        \"id\": 83812,\n        \"code\": \"1101022023\",\n        \"district_code\": \"110102\",\n        \"name\": \"DESA INDAH\",\n        \"meta\": \"{\\\"lat\\\":\\\"90.0\\\",\\\"long\\\":\\\"100.555\\\",\\\"pos\\\":40551}\",\n        \"created_at\": \"2024-04-20T04:59:03.000000Z\",\n        \"updated_at\": \"2024-04-20T04:59:03.000000Z\"\n    }\n}"
+						},
+						{
+							"name": "Error",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/desa/83812",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa",
+										"83812"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 05:06:11 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 500,\n    \"message\": \"Error when deleting data. Data not found.\",\n    \"data\": []\n}"
+						}
+					]
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"DESA WINTER\",\r\n    \"district_code\": 110102,\r\n    \"lat\": \"85.9\",\r\n    \"long\": \"179.009\",\r\n    \"pos\": 12345\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/desa/83813",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"desa",
+								"83813"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Error Validation",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"DESA SMURF\",\r\n    \"district_code\": 110102,\r\n    \"pos\": 12345\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/desa/83813",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa",
+										"83813"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 05:15:16 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 500,\n    \"message\": {\n        \"name\": [\n            \"The name has already been taken.\"\n        ],\n        \"lat\": [\n            \"The lat field is required.\"\n        ],\n        \"long\": [\n            \"The long field is required.\"\n        ]\n    },\n    \"data\": []\n}"
+						},
+						{
+							"name": "Error Village is Exist",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"MLARON\",\r\n    \"district_code\": 920150,\r\n    \"lat\": \"85.9\",\r\n    \"long\": \"179.009\",\r\n    \"pos\": 12345\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/desa/83813",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa",
+										"83813"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 05:20:37 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 500,\n    \"message\": \"Failed to save data. Village is already exist.\",\n    \"data\": []\n}"
+						},
+						{
+							"name": "Error District Not Found",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"DESA WINTER\",\r\n    \"district_code\": 787878,\r\n    \"lat\": \"85.9\",\r\n    \"long\": \"179.009\",\r\n    \"pos\": 12345\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/desa/83813",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa",
+										"83813"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 05:26:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 500,\n    \"message\": \"Failed to save data. We can not find the district.\",\n    \"data\": []\n}"
+						},
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"DESA WINTER\",\r\n    \"district_code\": 110102,\r\n    \"lat\": \"85.9\",\r\n    \"long\": \"179.009\",\r\n    \"pos\": 12345\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/desa/83813",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"desa",
+										"83813"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Apr 2024 05:28:12 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 200,\n    \"message\": \"Data has been successfully updated\",\n    \"data\": {\n        \"id\": 83813,\n        \"code\": \"1101022024\",\n        \"district_code\": 110102,\n        \"name\": \"DESA WINTER\",\n        \"meta\": \"{\\\"lat\\\":\\\"85.9\\\",\\\"long\\\":\\\"179.009\\\",\\\"pos\\\":12345}\",\n        \"created_at\": \"2024-04-20T04:59:35.000000Z\",\n        \"updated_at\": \"2024-04-20T05:28:12.000000Z\"\n    }\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
