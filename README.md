@@ -6,6 +6,12 @@ Author: Afiani Fauziah
 
 ## Installation
 
+Before continue to the installation, please clone this repository first:
+
+```bash
+git clone git@github.com:fiwz/memento-mori.git
+```
+
 Please follow the instructions below:
 
 1. Create `.env` file from `.env.example`
